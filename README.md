@@ -13,6 +13,7 @@ None of this shit really makes sense without types. Since all of these categorie
   - Contravariant Functor
     - Orderable
   - Functor
+  - Monad
 
 ## How closely do these resemble the actual categories?
 I truly don't know. Though I've read a lot on the subject, I'm still sort of a wannabe category theorist so I could be completely wrong on these. If so, create an issue or submit a PR.

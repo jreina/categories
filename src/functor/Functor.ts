@@ -1,4 +1,4 @@
-import { Func } from '../common/index';
+import { Func } from '../common';
 import IFunctor from './IFunctor';
 
 export default class Functor<A> implements IFunctor<A> {

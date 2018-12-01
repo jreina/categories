@@ -1,4 +1,4 @@
-import { Func } from '../common/index';
+import { Func } from '../common';
 import IContravariantFunctor from './IContravariantFunctor';
 
 class Orderable<A> implements IContravariantFunctor<A> {

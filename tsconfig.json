@@ -2,6 +2,7 @@
   "compileOnSave": true,
   "compilerOptions": {
     "module": "es6",
+    "moduleResolution": "node",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,

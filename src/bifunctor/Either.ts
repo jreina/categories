@@ -1,5 +1,5 @@
 import Bifunctor from './Bifunctor';
-import { Func } from '../common/index';
+import { Func } from '../common';
 
 class Either<A, C> extends Bifunctor<A, C> {
   constructor(a: A, c: C) {

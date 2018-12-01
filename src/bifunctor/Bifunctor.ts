@@ -1,5 +1,5 @@
 import IBifunctor from './IBifunctor';
-import { Func } from '../common/index';
+import { Func } from '../common';
 // @flow
 
 class Bifunctor<A, C> implements IBifunctor<A, C> {
