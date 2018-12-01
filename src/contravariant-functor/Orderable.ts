@@ -1,10 +1,7 @@
 import { Func } from '../common/index';
+import IContravariantFunctor from './IContravariantFunctor';
 
-interface ContravariantFunctor<A> {
-  contramap<B>(xf: Func<A, B>): ContravariantFunctor<A>;
-}
-
-class Orderable<A> implements ContravariantFunctor<A> {
+class Orderable<A> implements IContravariantFunctor<A> {
   private _x: Array<A>;
 
   constructor(x: Array<A>) {
