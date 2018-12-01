@@ -17,9 +17,7 @@
     "url": "https://github.com/jreina/bifunctor/issues"
   },
   "homepage": "https://github.com/jreina/bifunctor#readme",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-flow": "^6.23.0"
+  "devDependencies": {
+    "typescript": "3.2.1"
   }
 }
