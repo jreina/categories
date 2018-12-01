@@ -1,1 +1,2 @@
-export type Func<A, B> = (x: A) => B;
+export { Func } from './Func';
+export { Identity } from './Identity';
